@@ -1,0 +1,33 @@
+.Inicio-cuadro{
+
+    padding: 20px;
+    background-color: #2F2F2F;
+    max-width: 350px;
+    margin:inherit;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 7px 13px 37px #222f5b
+    
+
+}
+
+.Img_yo{
+
+    height: 205px;
+    width:205px ;
+    border-radius: 100%;
+    border: 10px solid #3869a6;
+    display: block;
+    margin: auto;
+
+}
+
+
+.nombre{
+
+    color: rgb(22, 173, 173);
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: "Gabarito", sans-serif;
+
+}

@@ -1,0 +1,63 @@
+ul{
+
+    list-style-type: none;
+    
+
+}
+
+.Inicio{
+    background: #1A1A1A;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.Info{
+
+    display: inline-flex;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+th,td{
+
+    padding: 1%;
+
+}
+
+.Intereses{
+    
+    padding: 20px;
+    max-width: 1050px;
+    background-color: #1e2326;
+    margin:auto;
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 7px 13px 37px #222f5b;
+
+}
+
+.Intereses_titulo{
+
+    text-align: center;
+    font-size: 150%;
+
+}
+
+.Hobbies_img{
+
+    font-size: 150%;
+    padding:10px;
+    margin-top: 15px;   
+
+}
