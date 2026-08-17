@@ -1,0 +1,90 @@
+.conteniner2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    position: relative;
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.conteniner2 .progress{
+
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: var(--clr);
+    background: #444 linear-gradient(to right, transparent 50%, var(--clr) 0);
+
+}
+
+.conteniner2 h3{
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2.5rem;
+    z-index: 1;
+    font: 500;
+
+}
+
+.conteniner2 .progress h3 span{
+
+    font-size: .65rem;
+    font-weight: 400;
+
+}
+
+.conteniner2 .progress h4{
+
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-weight: 500;
+    color: var(--clr);
+    text-transform: uppercase;
+
+
+}
+
+.conteniner2 .progress::before{
+
+    content: "";
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin:left;
+    border-radius: 0 100% 100% 0/50%;
+
+}
+
+.conteniner2 .progress::after{
+
+    content: '';
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background: #222;
+
+}
+
+.conteniner2 .progress::before{
+
+    background: var(--clr);
+    transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
+
+}
+
+.conteniner2 .progress.less::before{
+
+    background: #444;
+    transform: rotate(calc(((var(--i) - 0) * 0.01turn)));
+
+}
